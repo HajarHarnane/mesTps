@@ -3,6 +3,9 @@ import cigma.pfe.services.ClientService;
 import cigma.pfe.models.Client;
 import cigma.pfe.services.ClientServiceImpl;
 
+import cigma.pfe.models.Facture;
+import java.util.List;
+
 public class ClientController {
 	ClientService clientService;/*= new ClientServiceImpl();*/
 	
@@ -35,5 +38,30 @@ public class ClientController {
 	public ClientController(){
 		System.out.println("creation d'un objet client controler");
 	}*/
+	public void modify(Client c){
+		clientService.modify(c);
+	}
+	public void removeById(long id){
+		clientService.removeById(id);
+	}
+	public Client getById(long id){
+		return clientService.getById(id);
+	}
+	
+	
+	/*FACTURE*/
+	
+    public Facture create(Facture f){
+        return clientService.create(f);
+    }
+    public List<Facture> read(){
+        return clientService.read();
+    }
+    public void delete(long id){
+        clientService.delete(id);
+    }
+    public Facture update(Facture f){
+    return  clientService.update(f);
+    }
 	
 }
