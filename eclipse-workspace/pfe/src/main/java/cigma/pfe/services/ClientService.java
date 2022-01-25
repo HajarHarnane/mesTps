@@ -10,11 +10,11 @@ public interface ClientService {
 	void removeById(long id);
 	Client getById(long id);
 	
-	/*FACTURE*/
-
+	//FACTURE
+/*
 	Facture create(Facture f);
 	List<Facture> read();
 	void delete(long id);
-	Facture update(Facture f);
+	Facture update(Facture f);*/
 
 }

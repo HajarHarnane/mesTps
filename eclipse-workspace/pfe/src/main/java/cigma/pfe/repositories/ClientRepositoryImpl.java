@@ -50,8 +50,8 @@ public class ClientRepositoryImpl implements ClientRepository{
 	public Client findById(long idClient) {
 	return em.find(Client.class,idClient);
 	}
-	/*FACTURE*/
-	
+	//FACTURE
+	/*
 
     @Override
     public Facture create(Facture f) {
@@ -85,7 +85,9 @@ public class ClientRepositoryImpl implements ClientRepository{
         em.persist(currentFacture);
         em.getTransaction().commit();
         return null ;
-    }
+    }*/
+
+	
 	
 
 	

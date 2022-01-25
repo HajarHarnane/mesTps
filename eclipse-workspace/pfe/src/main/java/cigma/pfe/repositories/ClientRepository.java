@@ -9,10 +9,10 @@ public interface ClientRepository {
 	void deleteById(long idClient);
 	Client findById(long idClient);
 	
-	/*FACTURE*/
+	//FACTURE
 	
-	Facture create(Facture f);
+	/*Facture create(Facture f);
 	List<Facture> read();
 	void deleteFactureById(long id);
-	Facture updates(Facture f);
+	Facture updates(Facture f);*/
 }

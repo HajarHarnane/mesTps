@@ -35,9 +35,9 @@ public class ClientServiceImpl implements ClientService{
 	return clientRepository.findById(id);
 	}
 	
-	/*FACTURE*/
+	//FACTURE
 	
-
+	/*
     @Override
     public Facture create(Facture f){
         return clientRepository.create(f);
@@ -55,7 +55,7 @@ public class ClientServiceImpl implements ClientService{
     @Override
     public Facture update(Facture f) {
         return clientRepository.updates(f);
-    }
+    }*/
 	
 	
 

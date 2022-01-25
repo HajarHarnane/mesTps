@@ -38,6 +38,7 @@ public class ClientController {
 	public ClientController(){
 		System.out.println("creation d'un objet client controler");
 	}*/
+
 	public void modify(Client c){
 		clientService.modify(c);
 	}
@@ -49,8 +50,13 @@ public class ClientController {
 	}
 	
 	
-	/*FACTURE*/
 	
+	
+	
+	
+	
+	//FACTURE
+	/*
     public Facture create(Facture f){
         return clientService.create(f);
     }
@@ -62,6 +68,6 @@ public class ClientController {
     }
     public Facture update(Facture f){
     return  clientService.update(f);
-    }
+    }*/
 	
 }
